@@ -16,7 +16,7 @@ pip install --quiet --upgrade scikit-image
 # Download sample file
 echo "Mendownload file contoh..."
 echo ''
-wget --quiet -o badut.jpg "https://drive.google.com/uc?export=download&id=1NoeVl0K-6YkBoffz6dsqaogwruJjaa6z"
+wget --quiet -o badut.jpg "https://docs.google.com/uc?export=download&id=1NoeVl0K-6YkBoffz6dsqaogwruJjaa6z"
 
 # Done
 echo "Selesai"
