@@ -11,7 +11,6 @@ echo ' '
 # Update Library
 echo "Menginstall dan Mengupdate..."
 pip install --quiet --upgrade scikit-image
-pip install opencv-python
 
 # Download sample file
 echo "Mendownload file contoh..."
