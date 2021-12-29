@@ -6,14 +6,16 @@ echo ' '
 echo '065119165 Fauzan Dzaki Andrian'
 echo '065119166 Muhammad Farchan Ramdhani'
 echo '065119168 Daffa Ksatria Firdaus'
-echo ' '
+echo '' 
 
 # Update Library
 echo "Menginstall dan Mengupdate..."
+echo ''
 pip install --quiet --upgrade scikit-image
 
 # Download sample file
 echo "Mendownload file contoh..."
+echo ''
 wget --quiet -o badut.jpg "https://drive.google.com/uc?export=download&id=1NoeVl0K-6YkBoffz6dsqaogwruJjaa6z"
 
 # Done
