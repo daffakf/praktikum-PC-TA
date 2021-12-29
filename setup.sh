@@ -1,3 +1,4 @@
+# Banner
 sudo apt -qq install figlet
 figlet -f slant "Kelompok 3"
 echo 'Kelompok 3'
@@ -6,8 +7,15 @@ echo '065119165 Fauzan Dzaki Andrian'
 echo '065119166 Muhammad Farchan Ramdhani'
 echo '065119168 Daffa Ksatria Firdaus'
 echo ' '
-echo "Menginstall dan Mengupdate Opencv..."
+
+# Update Library
+echo "Menginstall dan Mengupdate..."
+pip install --quiet --upgrade scikit-image
 pip install opencv-python
+
+# Download sample file
+echo "Mendownload file contoh..."
+wget --quiet -o badut.jpg "https://drive.google.com/file/d/1NoeVl0K-6YkBoffz6dsqaogwruJjaa6z/view?usp=sharing"
 
 # Done
 echo "Selesai"
