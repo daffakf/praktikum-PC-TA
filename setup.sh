@@ -6,12 +6,13 @@ echo " "
 echo "065119165 Fauzan Dzaki Andrian"
 echo "065119166 Muhammad Farchan Ramdhani"
 echo "065119168 Daffa Ksatria Firdaus"
-echo "" 
+echo " " 
 
 # Update Library
 echo "Menginstall dan Mengupdate..."
 echo " "
 pip install --quiet --upgrade scikit-image
+pip install opencv-python
 
 # Download sample file
 echo "Mendownload file contoh..."
